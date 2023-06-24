@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/palette-calculator-bow-red-background_23-2148182111.jpg);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 350px;
+    height: 350px;
+    margin-left: 35%;
+    margin-top: 10%;
+    background: linear-gradient(rgb(237, 93, 117),rgb(237, 105, 127));
+    line-height: 30px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    
+}
+h2{
+    text-align: center;
+    top: 30%;
+}
+#date{
+    border: none;
+    background-color: aliceblue;
+    border-radius: 8px;
+    width: 120px;
+    height: 35px;
+    margin-top: 30px;
+}
+label{
+    margin-top: 30px;
+    font-weight: bold;
+}
+#result{
+    margin-left: 25px;
+}
+.btn1{
+    margin-top: 7%;
+    text-align: center;
+    
+}
+button{
+   background-color: aliceblue;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+button:hover{
+    background-color: rgb(253, 8, 48);
+    transform: scale(1.1);
+}
